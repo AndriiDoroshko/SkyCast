@@ -32,9 +32,11 @@ class AppCoordinator: Coordinator {
     }
     
     func navigateToHomeIfPossible() {
+        // App launched and we are going to define if user loged in. Meanwhile we are displaing launch screen
         let launchScreenCoordinator = LaunchScreenCoordinator(navigationController: self.navigationController,
                                                               parentCoordinator: self)
         launchScreenCoordinator.start()
+        
         // Replace Timer with network request to check if user is loged in. If Not then use Login Coordinator
         Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { [weak self] _ in
             guard let self = self else { return }
