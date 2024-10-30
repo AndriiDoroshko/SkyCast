@@ -13,6 +13,8 @@
 		423682B82CAF44DD0007CCFD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423682B62CAF44DD0007CCFD /* NetworkError.swift */; };
 		423682BA2CAF45AF0007CCFD /* NetworkURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423682B92CAF45AF0007CCFD /* NetworkURLs.swift */; };
 		423682BB2CAF45AF0007CCFD /* NetworkURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423682B92CAF45AF0007CCFD /* NetworkURLs.swift */; };
+		423682BF2CB051D60007CCFD /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423682BE2CB051D60007CCFD /* CacheService.swift */; };
+		423682C02CB051D60007CCFD /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423682BE2CB051D60007CCFD /* CacheService.swift */; };
 		4254693D2CAF273900637677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254693C2CAF273900637677 /* AppDelegate.swift */; };
 		4254693F2CAF273900637677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254693E2CAF273900637677 /* SceneDelegate.swift */; };
 		425469412CAF273900637677 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469402CAF273900637677 /* HomeViewController.swift */; };
@@ -21,11 +23,16 @@
 		425469542CAF273A00637677 /* SkyCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469532CAF273A00637677 /* SkyCastTests.swift */; };
 		4254695E2CAF273A00637677 /* SkyCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254695D2CAF273A00637677 /* SkyCastUITests.swift */; };
 		425469602CAF273A00637677 /* SkyCastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254695F2CAF273A00637677 /* SkyCastUITestsLaunchTests.swift */; };
-		4254696E2CAF2D1400637677 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254696D2CAF2D1400637677 /* HomeScreenViewModel.swift */; };
-		425469732CAF3B1600637677 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469722CAF3B1600637677 /* HomeCoordinator.swift */; };
-		425469742CAF3B1600637677 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469722CAF3B1600637677 /* HomeCoordinator.swift */; };
+		4254696E2CAF2D1400637677 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254696D2CAF2D1400637677 /* HomeViewModel.swift */; };
+		425469732CAF3B1600637677 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469722CAF3B1600637677 /* AppCoordinator.swift */; };
+		425469742CAF3B1600637677 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469722CAF3B1600637677 /* AppCoordinator.swift */; };
 		425469762CAF3B6300637677 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469752CAF3B6300637677 /* Coordinator.swift */; };
 		425469772CAF3B6300637677 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425469752CAF3B6300637677 /* Coordinator.swift */; };
+		42935F012CD2BAEC00FBCC3A /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42935F002CD2BAEC00FBCC3A /* TabBarCoordinator.swift */; };
+		42935F032CD2C18F00FBCC3A /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42935F022CD2C18F00FBCC3A /* HomeCoordinator.swift */; };
+		42935F062CD2CAFF00FBCC3A /* FloatingTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42935F052CD2CAFF00FBCC3A /* FloatingTabBarController.swift */; };
+		42935F092CD2CEEA00FBCC3A /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42935F082CD2CEEA00FBCC3A /* LaunchScreen.swift */; };
+		42935F0B2CD2CFED00FBCC3A /* LaunchScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42935F0A2CD2CFED00FBCC3A /* LaunchScreenCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,7 @@
 		423682B32CAF44C70007CCFD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		423682B62CAF44DD0007CCFD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		423682B92CAF45AF0007CCFD /* NetworkURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURLs.swift; sourceTree = "<group>"; };
+		423682BE2CB051D60007CCFD /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
 		425469392CAF273900637677 /* SkyCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4254693C2CAF273900637677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4254693E2CAF273900637677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,9 +69,14 @@
 		425469592CAF273A00637677 /* SkyCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4254695D2CAF273A00637677 /* SkyCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyCastUITests.swift; sourceTree = "<group>"; };
 		4254695F2CAF273A00637677 /* SkyCastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyCastUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4254696D2CAF2D1400637677 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
-		425469722CAF3B1600637677 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		4254696D2CAF2D1400637677 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		425469722CAF3B1600637677 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		425469752CAF3B6300637677 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		42935F002CD2BAEC00FBCC3A /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		42935F022CD2C18F00FBCC3A /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		42935F052CD2CAFF00FBCC3A /* FloatingTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarController.swift; sourceTree = "<group>"; };
+		42935F082CD2CEEA00FBCC3A /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		42935F0A2CD2CFED00FBCC3A /* LaunchScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +107,7 @@
 		423682B22CAF449D0007CCFD /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				423682BD2CB051810007CCFD /* Cache Service */,
 				423682BC2CAF49B00007CCFD /* NetworkService */,
 			);
 			path = Services;
@@ -107,6 +121,14 @@
 				423682B32CAF44C70007CCFD /* NetworkService.swift */,
 			);
 			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		423682BD2CB051810007CCFD /* Cache Service */ = {
+			isa = PBXGroup;
+			children = (
+				423682BE2CB051D60007CCFD /* CacheService.swift */,
+			);
+			path = "Cache Service";
 			sourceTree = "<group>";
 		};
 		425469302CAF273900637677 = {
@@ -134,6 +156,8 @@
 			children = (
 				423682B22CAF449D0007CCFD /* Services */,
 				425469782CAF3C9600637677 /* Coordinators */,
+				42935F072CD2CECD00FBCC3A /* LaunchScreen */,
+				42935F042CD2CAF200FBCC3A /* TabBar */,
 				425469712CAF32C000637677 /* HomeScreen */,
 				4254693C2CAF273900637677 /* AppDelegate.swift */,
 				4254693E2CAF273900637677 /* SceneDelegate.swift */,
@@ -164,7 +188,7 @@
 		425469712CAF32C000637677 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				4254696D2CAF2D1400637677 /* HomeScreenViewModel.swift */,
+				4254696D2CAF2D1400637677 /* HomeViewModel.swift */,
 				425469402CAF273900637677 /* HomeViewController.swift */,
 			);
 			path = HomeScreen;
@@ -174,9 +198,28 @@
 			isa = PBXGroup;
 			children = (
 				425469752CAF3B6300637677 /* Coordinator.swift */,
-				425469722CAF3B1600637677 /* HomeCoordinator.swift */,
+				425469722CAF3B1600637677 /* AppCoordinator.swift */,
+				42935F0A2CD2CFED00FBCC3A /* LaunchScreenCoordinator.swift */,
+				42935F002CD2BAEC00FBCC3A /* TabBarCoordinator.swift */,
+				42935F022CD2C18F00FBCC3A /* HomeCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		42935F042CD2CAF200FBCC3A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				42935F052CD2CAFF00FBCC3A /* FloatingTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		42935F072CD2CECD00FBCC3A /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				42935F082CD2CEEA00FBCC3A /* LaunchScreen.swift */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,15 +352,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42935F092CD2CEEA00FBCC3A /* LaunchScreen.swift in Sources */,
 				425469412CAF273900637677 /* HomeViewController.swift in Sources */,
 				423682B72CAF44DD0007CCFD /* NetworkError.swift in Sources */,
-				4254696E2CAF2D1400637677 /* HomeScreenViewModel.swift in Sources */,
+				42935F0B2CD2CFED00FBCC3A /* LaunchScreenCoordinator.swift in Sources */,
+				4254696E2CAF2D1400637677 /* HomeViewModel.swift in Sources */,
 				425469762CAF3B6300637677 /* Coordinator.swift in Sources */,
+				423682BF2CB051D60007CCFD /* CacheService.swift in Sources */,
+				42935F032CD2C18F00FBCC3A /* HomeCoordinator.swift in Sources */,
 				423682BA2CAF45AF0007CCFD /* NetworkURLs.swift in Sources */,
 				4254693D2CAF273900637677 /* AppDelegate.swift in Sources */,
-				425469732CAF3B1600637677 /* HomeCoordinator.swift in Sources */,
+				425469732CAF3B1600637677 /* AppCoordinator.swift in Sources */,
 				4254693F2CAF273900637677 /* SceneDelegate.swift in Sources */,
 				423682B42CAF44C70007CCFD /* NetworkService.swift in Sources */,
+				42935F012CD2BAEC00FBCC3A /* TabBarCoordinator.swift in Sources */,
+				42935F062CD2CAFF00FBCC3A /* FloatingTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +375,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				425469542CAF273A00637677 /* SkyCastTests.swift in Sources */,
-				425469742CAF3B1600637677 /* HomeCoordinator.swift in Sources */,
+				425469742CAF3B1600637677 /* AppCoordinator.swift in Sources */,
 				423682B52CAF44C70007CCFD /* NetworkService.swift in Sources */,
 				425469772CAF3B6300637677 /* Coordinator.swift in Sources */,
 				423682BB2CAF45AF0007CCFD /* NetworkURLs.swift in Sources */,
+				423682C02CB051D60007CCFD /* CacheService.swift in Sources */,
 				423682B82CAF44DD0007CCFD /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

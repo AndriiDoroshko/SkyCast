@@ -1,5 +1,5 @@
 //
-//  HomeScreenViewModel.swift
+//  HomeViewModel.swift
 //  SkyCast
 //
 //  Created by Andrey Doroshko on 10/3/24.
